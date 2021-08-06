@@ -2,14 +2,17 @@ import urllib.request,json
 from .models import NewsSource,NewsArticle
 from datetime import date
 
+
 #getting the api key
 api_key = None
+
 
 #getting the news base url
 base_url = None
 
 #getting the articlces url
 articles_url = None
+
 
 def configure_request(app):
 	global api_key,base_url,articles_url
@@ -33,7 +36,9 @@ def get_news_source(category):
 			news_source_results_list = get_news_source_response['sources']
 			news_source_results = process_news_source(news_source_results_list)
 
+
 	return news_source_results
+
 
 def process_news_source(news_source_list):
 	'''
@@ -58,6 +63,7 @@ def process_news_source(news_source_list):
 
 	return news_source_results
 
+
 def get_articles(id):
 	'''
 	Function that processes the articles and returns a list of articles objects
@@ -73,6 +79,7 @@ def get_articles(id):
 			news_article_object = process_news_article(news_article_results['articles'])
 
 	return news_article_object
+
 
 def process_news_article(news_article_list):
 	'''
