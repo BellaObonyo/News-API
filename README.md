@@ -1,8 +1,7 @@
 # News-API-Project
 ## Description
-This application allows the user to list and preview news articles from various sources.
-# Set Up & Instalation Guide
--
+This application allows the user to list and preview news articles from various source
+
 # Technologies Used
 * CSS
 * HTML
