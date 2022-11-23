@@ -1,12 +1,14 @@
-# News-API-Project
+# News-API
 ## Description
 This application allows the user to list and preview news articles from various source
 
 # Technologies Used
-* CSS
-* HTML
 * Bootstrap
 * python(flask)
+* Javascript
+* CSS
+* HTML
+
 # Contact Details
 If you have any request or questions please email me at cynthiabella.obonyo@gmail.com
 # License & Copyright
